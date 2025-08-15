@@ -1,13 +1,13 @@
 # Machine-learning-project
 College Basketball Tournament Prediction Project
-Overview
+💡Overview.
 This project uses machine learning to predict postseason outcomes for college basketball teams based on the cbb.csv dataset. The dataset includes features like team performance metrics (e.g., ADJOE, ADJDE, BARTHAG) from 2016–2019 seasons.
-Key components:
+🔑Key components:
 
 Data Exploration: Dataset information, descriptive statistics, missing values handling, and visualizations (histograms, boxplots, PCA).
 Preprocessing: Label encoding for categorical columns, MinMax scaling for features, and handling NaN values.
-Model Training & Evaluation: Trains and evaluates multiple classifiers (K-Nearest Neighbors, Decision Tree, Support Vector Machine, Logistic Regression) using accuracy, confusion matrices, and classification reports.
-Visualizations: Confusion matrix plots for each model, histograms, boxplots with swarm plots, and PCA 2D scatter plot.
+⚙Model Training & Evaluation: Trains and evaluates multiple classifiers (K-Nearest Neighbors, Decision Tree, Support Vector Machine, Logistic Regression) using accuracy, confusion matrices, and classification reports.
+📊Visualizations: Confusion matrix plots for each model, histograms, boxplots with swarm plots, and PCA 2D scatter plot.
 Model Ranking: Ranks models based on 5-fold cross-validation accuracy.
 
 The target variable is POSTSEASON, encoded numerically for classification.
